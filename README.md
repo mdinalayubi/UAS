@@ -192,10 +192,9 @@ for l in i:
             '║ ') + (uas).ljust(6) + ('║ ') + (akhir).ljust(6) + ('║'))
 P(" ╚══════════════════╩══════════════════╩═══════╩═══════╩═══════╩═══════╝")
 ```
-* ***Output cari_data***
+# ***Output cari_data***
 ![Gambar 6](uas/cari.png)
-
-* ``view_nilai.py`` berisi modul untuk :
+# ``view_nilai.py`` berisi modul untuk :
     * cetak_daftar_nilai
 ```python
 elif c.lower() == 'l':
@@ -443,5 +442,5 @@ while True:
     else:
         P("Pilih menu yang tersedia")
 ```
-* ***Output main.py***
+# ***Output main.py***
 ![Gambar 10](uas/menu.png)
