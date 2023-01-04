@@ -6,7 +6,7 @@
 ## **Tugas ini berdasarkan praktikum sebelumnya dengan struktur seperti ini:**
 ![Gambar 1](uas/tugas.png)
 ## ``daftar_nilai.py`` berisi modul untuk :
-    * tambah_data
+## tambah_data
 ```python
     elif c.lower() == 't':
 i = open('view/database.txt', 'a')
@@ -62,7 +62,7 @@ Oc("clear")
 ## **Output tambah_data**
 ![Gambar 2](uas/tambah1.png)
 ![Gambar 3](uas/tambah2.png)
-    * ubah_data
+## ubah_data
 ```python
 elif c.lower() == 'u':
 u = open('view/database.txt', 'r').read().splitlines()
@@ -137,9 +137,9 @@ for i in new:
     new2.write(i2 + '\n')
 new2.close()
 ```
-## ***Output ubah_data**
+## **Output ubah_data**
 ![Gambar 4](uas/ubah.png)
-    * hapus_data
+## hapus_data
 ```python
 elif c.lower() == 'h':
 u = open('view/database.txt', 'r').read().splitlines()
@@ -171,7 +171,7 @@ new2.close()
 ```
 ## ***Output hapus_data***
 ![Gambar 5](uas/Hapus.png)
-    * cari_data
+## cari_data
 ```python
 elif c.lower() == 'c':
 cari = input(' cari : ')
@@ -218,7 +218,7 @@ P(" ╚══════════════════╩═════�
 ```
 ## ***Output cetak_daftar_nilai***
 ![Gambar 7](uas/lihat.png)
-    ### * cetak_hasil_pencarian
+### cetak_hasil_pencarian
 ```python
 elif c.lower() == 'c':
 cari = input(' cari : ')
