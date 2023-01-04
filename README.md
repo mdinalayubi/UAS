@@ -194,6 +194,7 @@ P(" ╚══════════════════╩═════�
 ```
 * ***Output cari_data***
 ![Gambar 6](uas/cari.png)
+
 * ``view_nilai.py`` berisi modul untuk :
     * cetak_daftar_nilai
 ```python
