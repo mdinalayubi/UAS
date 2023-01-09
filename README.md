@@ -62,6 +62,8 @@ Oc("clear")
 ## ***Output tambah_data***
 ![Gambar 2](uas/tambah1.png)
 ![Gambar 3](uas/tambah2.png)
+## ***Penjelasan***
+Def tambahkan : Dibagian ini kita gunakan print untuk penulisan bagian input data mahasiswa nanti agar terlihat rapih
 ## ***ubah_data***
 ```python
 elif c.lower() == 'u':
@@ -139,6 +141,11 @@ new2.close()
 ```
 ## ***Output ubah_data***
 ![Gambar 4](uas/ubah.png)
+## ***Penjelasan***
+* Disini kita hampir sama dengan yang hapus, kita gunakan inputan nama untuk mengubah NIM, Nilai Tugas, Ujian Tengah Semester(UTS), ataupun Ujian Akhir Semester(UAS)
+* Lalu setelah kita memasukkan nama maka dictionary akan mengeksekusi program menggunakan keys untuk mencari data dari nama mahasiswa tersebut
+* (If)Jika nama mahasiswa tersebut ketemu atau ada didalam data maka program akan masuk ke inputan NIM, Nilai Tugas, Nilai UTS, dan Nilai UAS yang baru
+* (Else)Jika nama mahasiswa tersebut tidak ada didalam data maka program akan memunculkan tulisan atau perintah bahwa data mahasiswa tidak ada
 ## ***hapus_data***
 ```python
 elif c.lower() == 'h':
@@ -171,6 +178,12 @@ new2.close()
 ```
 ## ***Output hapus_data***
 ![Gambar 5](uas/Hapus.png)
+## ***Penjelasan***
+* Def hapus :
+* Disini kita hampir sama dengan yang hapus, kita gunakan inputan nama untuk mengubah NIM, Nilai Tugas, Ujian Tengah Semester(UTS), ataupun Ujian Akhir Semester(UAS)
+* Lalu setelah kita memasukkan nama maka dictionary akan mengeksekusi program menggunakan keys untuk mencari data dari nama mahasiswa tersebut
+* (If)Jika nama mahasiswa tersebut ketemu atau ada didalam data maka program akan masuk ke inputan NIM, Nilai Tugas, Nilai UTS, dan Nilai UAS yang baru
+* (Else)Jika nama mahasiswa tersebut tidak ada didalam data maka program akan memunculkan tulisan atau perintah bahwa data mahasiswa tidak ada
 ## ***cari_data***
 ```python
 elif c.lower() == 'c':
@@ -195,6 +208,8 @@ P(" ╚══════════════════╩═════�
 ## ***Output cari_data***
 ![Gambar 6](uas/cari.png)
 ## ***``view_nilai.py`` berisi modul untuk :***
+## ***Penjelasan Def cari***
+## Fungsinya sama dengan Def tambahkan
 ## ***cetak_daftar_nilai***
 ```python
 elif c.lower() == 'l':
